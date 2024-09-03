@@ -6,3 +6,10 @@ To test
 * yarn
 * yarn dev
 * browse to http://localhost:3000
+
+To test with patch
+* git switch fix
+* yarn
+* rm -rf .next
+* yarn dev
+* browse to http://localhost:3000

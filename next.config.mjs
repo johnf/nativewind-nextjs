@@ -8,6 +8,7 @@ const nextConfig = {
 
     return config;
   },
+  transpilePackages: ["nativewind", "react-native-css-interop"],
 };
 
 export default nextConfig;
