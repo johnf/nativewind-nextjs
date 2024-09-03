@@ -1843,6 +1843,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-css-interop@patch:react-native-css-interop@npm%3A0.1.3#~/.yarn/patches/react-native-css-interop-npm-0.1.3-6650bc5d84.patch":
+  version: 0.1.3
+  resolution: "react-native-css-interop@patch:react-native-css-interop@npm%3A0.1.3#~/.yarn/patches/react-native-css-interop-npm-0.1.3-6650bc5d84.patch::version=0.1.3&hash=f627c6"
+  dependencies:
+    "@babel/helper-module-imports": "npm:^7.22.15"
+    "@babel/traverse": "npm:^7.23.0"
+    "@babel/types": "npm:^7.23.0"
+    lightningcss: "npm:1.22.0"
+    semver: "npm:^7.6.3"
+  peerDependencies:
+    react: ">=18"
+    react-native: "*"
+    react-native-reanimated: ">=3.6.2"
+    tailwindcss: ~3
+  peerDependenciesMeta:
+    react-native-safe-area-context:
+      optional: true
+    react-native-svg:
+      optional: true
+  checksum: 10c0/71bd5c97520781dcdf5259a19b2b56b024d429ed9efb3eb57d9e674969cd5a269cf8c7543bdb0f1c3f4c310e94273fc7ad57b1a242456dc321f6dcc02d25aaed
+  languageName: node
+  linkType: hard
+
 "react-native-web@npm:0.19.12":
   version: 0.19.12
   resolution: "react-native-web@npm:0.19.12"

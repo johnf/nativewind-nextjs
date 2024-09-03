@@ -1,0 +1,14 @@
+diff --git a/dist/runtime/web/api.js b/dist/runtime/web/api.js
+index f5b67f13f9d5e37d71800f1722f5af44071b5db2..c0f2675ccbde47c467dedb3c4b7f6e387cc94222 100644
+--- a/dist/runtime/web/api.js
++++ b/dist/runtime/web/api.js
+@@ -58,7 +58,8 @@ const cssInterop = (baseComponent, mapping) => {
+             return (0, react_1.createElement)(baseComponent, props);
+         }
+     });
+-    interopComponent.displayName = `CssInterop.${baseComponent.displayName ?? baseComponent.name ?? "unknown"}`;
++    // See https://github.com/nativewind/nativewind/issues/987
++    interopComponent.displayName = `CssInterop.${baseComponent.name ?? "unknown"}`;
+     exports.interopComponents.set(baseComponent, interopComponent);
+     return interopComponent;
+ };
