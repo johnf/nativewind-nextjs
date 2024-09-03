@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "14.2.7",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18.3.1",
+    "react-native-web": "patch:react-native-web@npm%3A0.19.12#~/.yarn/patches/react-native-web-npm-0.19.12-55f136bbcd.patch"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,0 +1,531 @@
+diff --git a/dist/exports/ActivityIndicator/index.js b/dist/exports/ActivityIndicator/index.js
+index c41cb55da388796cdd112153d56c09e0f4728f3b..495c239c58e54a9ac6991a264a883625fb6fc847 100644
+--- a/dist/exports/ActivityIndicator/index.js
++++ b/dist/exports/ActivityIndicator/index.js
+@@ -1,6 +1,7 @@
+-import _extends from "@babel/runtime/helpers/extends";
+-import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+-var _excluded = ["animating", "color", "hidesWhenStopped", "size", "style"];
++'use client';
++import _extends from '@babel/runtime/helpers/extends';
++import _objectWithoutPropertiesLoose from '@babel/runtime/helpers/objectWithoutPropertiesLoose';
++var _excluded = ['animating', 'color', 'hidesWhenStopped', 'size', 'style'];
+ /**
+  * Copyright (c) Nicolas Gallagher.
+  * Copyright (c) Meta Platforms, Inc. and affiliates.
+diff --git a/dist/exports/AppRegistry/AppContainer.js b/dist/exports/AppRegistry/AppContainer.js
+index 0892f565eba249a44d562d787824641d04e81c85..6606e948bed5698295fd850372faf80949414021 100644
+--- a/dist/exports/AppRegistry/AppContainer.js
++++ b/dist/exports/AppRegistry/AppContainer.js
+@@ -8,6 +8,8 @@
+  * 
+  */
+ 
++'use client';
++
+ import * as React from 'react';
+ import StyleSheet from '../StyleSheet';
+ import View from '../View';
+diff --git a/dist/exports/CheckBox/index.js b/dist/exports/CheckBox/index.js
+index 8a9a9dbbdcd06db2ab29436c7fb83331717b109a..aa5c2169e2659cd986760b82630c11f75b49c1e0 100644
+--- a/dist/exports/CheckBox/index.js
++++ b/dist/exports/CheckBox/index.js
+@@ -1,7 +1,8 @@
+-import _objectSpread from "@babel/runtime/helpers/objectSpread2";
+-import _extends from "@babel/runtime/helpers/extends";
+-import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+-var _excluded = ["aria-readonly", "color", "disabled", "onChange", "onValueChange", "readOnly", "style", "value"];
++'use client';
++import _objectSpread from '@babel/runtime/helpers/objectSpread2';
++import _extends from '@babel/runtime/helpers/extends';
++import _objectWithoutPropertiesLoose from '@babel/runtime/helpers/objectWithoutPropertiesLoose';
++var _excluded = ['aria-readonly', 'color', 'disabled', 'onChange', 'onValueChange', 'readOnly', 'style', 'value'];
+ /**
+  * Copyright (c) Nicolas Gallagher.
+  * Copyright (c) Meta Platforms, Inc. and affiliates.
+diff --git a/dist/exports/FlatList/index.js b/dist/exports/FlatList/index.js
+index b547e8f4ea3957ff5f687477e8e57951468e2588..10cb0d02ec0116ffc7788543ad2f4fd103abbead 100644
+--- a/dist/exports/FlatList/index.js
++++ b/dist/exports/FlatList/index.js
+@@ -8,5 +8,7 @@
+  * 
+  */
+ 
++'use client';
++
+ import FlatList from '../../vendor/react-native/FlatList';
+ export default FlatList;
+\ No newline at end of file
+diff --git a/dist/exports/Image/index.js b/dist/exports/Image/index.js
+index 9649d271054e4c47b041e49a3cb459758d07e24f..1da9ab319a988f6db41289d4866b259879162917 100644
+--- a/dist/exports/Image/index.js
++++ b/dist/exports/Image/index.js
+@@ -1,3 +1,4 @@
++'use client';
+ import _objectSpread from "@babel/runtime/helpers/objectSpread2";
+ import _extends from "@babel/runtime/helpers/extends";
+ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+diff --git a/dist/exports/KeyboardAvoidingView/index.js b/dist/exports/KeyboardAvoidingView/index.js
+index d8182d570c8f6b18dfae15e523cbe5699259d259..b26af428fda890196fe042f8b8384189b1f285d8 100644
+--- a/dist/exports/KeyboardAvoidingView/index.js
++++ b/dist/exports/KeyboardAvoidingView/index.js
+@@ -1,3 +1,5 @@
++'use client';
++
+ import _extends from "@babel/runtime/helpers/extends";
+ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+ var _excluded = ["behavior", "contentContainerStyle", "keyboardVerticalOffset"];
+diff --git a/dist/exports/Modal/index.js b/dist/exports/Modal/index.js
+index d5df021668f8913679ec6b2339a8be5111531adb..5856d6cd9b050e9cb4a5f06ba162ecdef2bff21e 100644
+--- a/dist/exports/Modal/index.js
++++ b/dist/exports/Modal/index.js
+@@ -1,6 +1,7 @@
+-import _extends from "@babel/runtime/helpers/extends";
+-import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+-var _excluded = ["animationType", "children", "onDismiss", "onRequestClose", "onShow", "transparent", "visible"];
++'use client';
++import _extends from '@babel/runtime/helpers/extends';
++import _objectWithoutPropertiesLoose from '@babel/runtime/helpers/objectWithoutPropertiesLoose';
++var _excluded = ['animationType', 'children', 'onDismiss', 'onRequestClose', 'onShow', 'transparent', 'visible'];
+ /**
+  * Copyright (c) Nicolas Gallagher.
+  * Copyright (c) Meta Platforms, Inc. and affiliates.
+diff --git a/dist/exports/Picker/index.js b/dist/exports/Picker/index.js
+index 7d764ce936910e936ba27db4b57fb24939e48ed7..190c329e89200cd364baca3e5146f0234382e785 100644
+--- a/dist/exports/Picker/index.js
++++ b/dist/exports/Picker/index.js
+@@ -1,3 +1,4 @@
++'use client';
+ import _objectSpread from "@babel/runtime/helpers/objectSpread2";
+ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+ var _excluded = ["children", "enabled", "onValueChange", "selectedValue", "style", "testID", "itemStyle", "mode", "prompt"];
+diff --git a/dist/exports/Pressable/index.js b/dist/exports/Pressable/index.js
+index fd72143209332855bfdfbfa2a9495a241a1b1ee9..fa77245dab6ca79814692017642cfb4092d8d8b1 100644
+--- a/dist/exports/Pressable/index.js
++++ b/dist/exports/Pressable/index.js
+@@ -7,7 +7,7 @@
+  * 
+  */
+ 
+-'use strict';
++'use client';
+ 
+ import _extends from "@babel/runtime/helpers/extends";
+ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+diff --git a/dist/exports/Pressable/index.js.orig b/dist/exports/Pressable/index.js.orig
+new file mode 100644
+index 0000000000000000000000000000000000000000..fd72143209332855bfdfbfa2a9495a241a1b1ee9
+--- /dev/null
++++ b/dist/exports/Pressable/index.js.orig
+@@ -0,0 +1,152 @@
++/**
++ * Copyright (c) Meta Platforms, Inc. and affiliates.
++ *
++ * This source code is licensed under the MIT license found in the
++ * LICENSE file in the root directory of this source tree.
++ *
++ * 
++ */
++
++'use strict';
++
++import _extends from "@babel/runtime/helpers/extends";
++import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
++var _excluded = ["children", "delayLongPress", "delayPressIn", "delayPressOut", "disabled", "onBlur", "onContextMenu", "onFocus", "onHoverIn", "onHoverOut", "onKeyDown", "onLongPress", "onPress", "onPressMove", "onPressIn", "onPressOut", "style", "tabIndex", "testOnly_hovered", "testOnly_pressed"];
++import * as React from 'react';
++import { forwardRef, memo, useMemo, useState, useRef } from 'react';
++import useMergeRefs from '../../modules/useMergeRefs';
++import useHover from '../../modules/useHover';
++import usePressEvents from '../../modules/usePressEvents';
++import StyleSheet from '../StyleSheet';
++import View from '../View';
++/**
++ * Component used to build display components that should respond to whether the
++ * component is currently pressed or not.
++ */
++function Pressable(props, forwardedRef) {
++  var children = props.children,
++    delayLongPress = props.delayLongPress,
++    delayPressIn = props.delayPressIn,
++    delayPressOut = props.delayPressOut,
++    disabled = props.disabled,
++    onBlur = props.onBlur,
++    onContextMenu = props.onContextMenu,
++    onFocus = props.onFocus,
++    onHoverIn = props.onHoverIn,
++    onHoverOut = props.onHoverOut,
++    onKeyDown = props.onKeyDown,
++    onLongPress = props.onLongPress,
++    onPress = props.onPress,
++    onPressMove = props.onPressMove,
++    onPressIn = props.onPressIn,
++    onPressOut = props.onPressOut,
++    style = props.style,
++    tabIndex = props.tabIndex,
++    testOnly_hovered = props.testOnly_hovered,
++    testOnly_pressed = props.testOnly_pressed,
++    rest = _objectWithoutPropertiesLoose(props, _excluded);
++  var _useForceableState = useForceableState(testOnly_hovered === true),
++    hovered = _useForceableState[0],
++    setHovered = _useForceableState[1];
++  var _useForceableState2 = useForceableState(false),
++    focused = _useForceableState2[0],
++    setFocused = _useForceableState2[1];
++  var _useForceableState3 = useForceableState(testOnly_pressed === true),
++    pressed = _useForceableState3[0],
++    setPressed = _useForceableState3[1];
++  var hostRef = useRef(null);
++  var setRef = useMergeRefs(forwardedRef, hostRef);
++  var pressConfig = useMemo(() => ({
++    delayLongPress,
++    delayPressStart: delayPressIn,
++    delayPressEnd: delayPressOut,
++    disabled,
++    onLongPress,
++    onPress,
++    onPressChange: setPressed,
++    onPressStart: onPressIn,
++    onPressMove,
++    onPressEnd: onPressOut
++  }), [delayLongPress, delayPressIn, delayPressOut, disabled, onLongPress, onPress, onPressIn, onPressMove, onPressOut, setPressed]);
++  var pressEventHandlers = usePressEvents(hostRef, pressConfig);
++  var onContextMenuPress = pressEventHandlers.onContextMenu,
++    onKeyDownPress = pressEventHandlers.onKeyDown;
++  useHover(hostRef, {
++    contain: true,
++    disabled,
++    onHoverChange: setHovered,
++    onHoverStart: onHoverIn,
++    onHoverEnd: onHoverOut
++  });
++  var interactionState = {
++    hovered,
++    focused,
++    pressed
++  };
++  var blurHandler = React.useCallback(e => {
++    if (e.nativeEvent.target === hostRef.current) {
++      setFocused(false);
++      if (onBlur != null) {
++        onBlur(e);
++      }
++    }
++  }, [hostRef, setFocused, onBlur]);
++  var focusHandler = React.useCallback(e => {
++    if (e.nativeEvent.target === hostRef.current) {
++      setFocused(true);
++      if (onFocus != null) {
++        onFocus(e);
++      }
++    }
++  }, [hostRef, setFocused, onFocus]);
++  var contextMenuHandler = React.useCallback(e => {
++    if (onContextMenuPress != null) {
++      onContextMenuPress(e);
++    }
++    if (onContextMenu != null) {
++      onContextMenu(e);
++    }
++  }, [onContextMenu, onContextMenuPress]);
++  var keyDownHandler = React.useCallback(e => {
++    if (onKeyDownPress != null) {
++      onKeyDownPress(e);
++    }
++    if (onKeyDown != null) {
++      onKeyDown(e);
++    }
++  }, [onKeyDown, onKeyDownPress]);
++  var _tabIndex;
++  if (tabIndex !== undefined) {
++    _tabIndex = tabIndex;
++  } else {
++    _tabIndex = disabled ? -1 : 0;
++  }
++  return /*#__PURE__*/React.createElement(View, _extends({}, rest, pressEventHandlers, {
++    "aria-disabled": disabled,
++    onBlur: blurHandler,
++    onContextMenu: contextMenuHandler,
++    onFocus: focusHandler,
++    onKeyDown: keyDownHandler,
++    ref: setRef,
++    style: [disabled ? styles.disabled : styles.active, typeof style === 'function' ? style(interactionState) : style],
++    tabIndex: _tabIndex
++  }), typeof children === 'function' ? children(interactionState) : children);
++}
++function useForceableState(forced) {
++  var _useState = useState(false),
++    bool = _useState[0],
++    setBool = _useState[1];
++  return [bool || forced, setBool];
++}
++var styles = StyleSheet.create({
++  active: {
++    cursor: 'pointer',
++    touchAction: 'manipulation'
++  },
++  disabled: {
++    pointerEvents: 'box-none'
++  }
++});
++var MemoedPressable = /*#__PURE__*/memo( /*#__PURE__*/forwardRef(Pressable));
++MemoedPressable.displayName = 'Pressable';
++export default MemoedPressable;
+\ No newline at end of file
+diff --git a/dist/exports/ScrollView/index.js b/dist/exports/ScrollView/index.js
+index b73c6fe977b080cc3b42fdf760ed7e174fd19e4d..e21f9144d4a943147529a56f379fcc5c30bfda2f 100644
+--- a/dist/exports/ScrollView/index.js
++++ b/dist/exports/ScrollView/index.js
+@@ -1,3 +1,4 @@
++'use client';
+ import _objectSpread from "@babel/runtime/helpers/objectSpread2";
+ import _extends from "@babel/runtime/helpers/extends";
+ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+diff --git a/dist/exports/SectionList/index.js b/dist/exports/SectionList/index.js
+index f9c60169dff34d0e3870e51783c70196aa070718..2d273f7a794c704d2240c93e46e67282204dfc78 100644
+--- a/dist/exports/SectionList/index.js
++++ b/dist/exports/SectionList/index.js
+@@ -6,6 +6,7 @@
+  *
+  * 
+  */
++'use client';
+ 
+ import SectionList from '../../vendor/react-native/SectionList';
+ export default SectionList;
+\ No newline at end of file
+diff --git a/dist/exports/Switch/index.js b/dist/exports/Switch/index.js
+index 38b96ed13aa9e7f7092b99d9d174eaa5cf4742cf..6d1fbf99c0efa9efdfc9fcc76ebd9ebeb6944919 100644
+--- a/dist/exports/Switch/index.js
++++ b/dist/exports/Switch/index.js
+@@ -1,3 +1,4 @@
++'use client';
+ import _objectSpread from "@babel/runtime/helpers/objectSpread2";
+ import _extends from "@babel/runtime/helpers/extends";
+ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+diff --git a/dist/exports/Text/TextAncestorContext.js b/dist/exports/Text/TextAncestorContext.js
+index da940ef23868ee5a08c62d8fbd8af37ae3b75521..6e18d033381eb6bf79e1e22e38356434e9542f68 100644
+--- a/dist/exports/Text/TextAncestorContext.js
++++ b/dist/exports/Text/TextAncestorContext.js
+@@ -6,6 +6,7 @@
+  *
+  * 
+  */
++'use client';
+ 
+ import { createContext } from 'react';
+ var TextAncestorContext = /*#__PURE__*/createContext(false);
+diff --git a/dist/exports/Text/index.js b/dist/exports/Text/index.js
+index 8c5f79b99eebf41dabd45d7abd883983c6d48711..d1ee68af80c03cb334d9e15ebf3ae0de05181cb7 100644
+--- a/dist/exports/Text/index.js
++++ b/dist/exports/Text/index.js
+@@ -1,5 +1,6 @@
+-import _objectSpread from "@babel/runtime/helpers/objectSpread2";
+-import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
++'use client';
++import _objectSpread from '@babel/runtime/helpers/objectSpread2';
++import _objectWithoutPropertiesLoose from '@babel/runtime/helpers/objectWithoutPropertiesLoose';
+ var _excluded = ["hrefAttrs", "numberOfLines", "onClick", "onLayout", "onPress", "onMoveShouldSetResponder", "onMoveShouldSetResponderCapture", "onResponderEnd", "onResponderGrant", "onResponderMove", "onResponderReject", "onResponderRelease", "onResponderStart", "onResponderTerminate", "onResponderTerminationRequest", "onScrollShouldSetResponder", "onScrollShouldSetResponderCapture", "onSelectionChangeShouldSetResponder", "onSelectionChangeShouldSetResponderCapture", "onStartShouldSetResponder", "onStartShouldSetResponderCapture", "selectable"];
+ /**
+  * Copyright (c) Nicolas Gallagher.
+diff --git a/dist/exports/TextInput/index.js b/dist/exports/TextInput/index.js
+index 185a72f76e7312396689ae3c6ec6d45ec00c7364..6424fb24df75865d75e4742197504904a52da5d6 100644
+--- a/dist/exports/TextInput/index.js
++++ b/dist/exports/TextInput/index.js
+@@ -7,6 +7,7 @@
+  *
+  * 
+  */
++'use client';
+ 
+ import * as React from 'react';
+ import createElement from '../createElement';
+diff --git a/dist/exports/TouchableHighlight/index.js b/dist/exports/TouchableHighlight/index.js
+index 38a9ceb94e751c5d6d6a5c36759ed3e297f0f4be..f5aed0d261f0b11c9720c783bd624d38f7ffa054 100644
+--- a/dist/exports/TouchableHighlight/index.js
++++ b/dist/exports/TouchableHighlight/index.js
+@@ -7,8 +7,7 @@
+  * 
+  * @format
+  */
+-
+-'use strict';
++'use client';
+ 
+ import _extends from "@babel/runtime/helpers/extends";
+ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+diff --git a/dist/exports/TouchableOpacity/index.js b/dist/exports/TouchableOpacity/index.js
+index 9993a412ad518de2399c934a6b338de026ff1524..75b032ff8b2250a8107278ad261e7ba076e55a1c 100644
+--- a/dist/exports/TouchableOpacity/index.js
++++ b/dist/exports/TouchableOpacity/index.js
+@@ -7,8 +7,7 @@
+  * 
+  * @format
+  */
+-
+-'use strict';
++'use client';
+ 
+ import _extends from "@babel/runtime/helpers/extends";
+ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+diff --git a/dist/exports/TouchableWithoutFeedback/index.js b/dist/exports/TouchableWithoutFeedback/index.js
+index b74ce35bdb351a68af10361b94679288ee222069..71967fba6e182c8e60401bbb80d30d1e3c5f72d6 100644
+--- a/dist/exports/TouchableWithoutFeedback/index.js
++++ b/dist/exports/TouchableWithoutFeedback/index.js
+@@ -7,8 +7,7 @@
+  * 
+  * @format
+  */
+-
+-'use strict';
++'use client';
+ 
+ import * as React from 'react';
+ import { useMemo, useRef } from 'react';
+diff --git a/dist/exports/View/index.js b/dist/exports/View/index.js
+index c812d77d4b8cbe4464f1aef2937cd2c27abeaa69..fe4e1c0856120b4649df933b58c3f6cb08dcd71b 100644
+--- a/dist/exports/View/index.js
++++ b/dist/exports/View/index.js
+@@ -1,3 +1,4 @@
++'use client';
+ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
+ var _excluded = ["hrefAttrs", "onLayout", "onMoveShouldSetResponder", "onMoveShouldSetResponderCapture", "onResponderEnd", "onResponderGrant", "onResponderMove", "onResponderReject", "onResponderRelease", "onResponderStart", "onResponderTerminate", "onResponderTerminationRequest", "onScrollShouldSetResponder", "onScrollShouldSetResponderCapture", "onSelectionChangeShouldSetResponder", "onSelectionChangeShouldSetResponderCapture", "onStartShouldSetResponder", "onStartShouldSetResponderCapture"];
+ /**
+diff --git a/dist/exports/VirtualizedList/index.js b/dist/exports/VirtualizedList/index.js
+index efdcaef598e05df5d2cf69d2c3b5edcee6c08da2..9b22796c46fa3c58924981db26ec158218538dc5 100644
+--- a/dist/exports/VirtualizedList/index.js
++++ b/dist/exports/VirtualizedList/index.js
+@@ -6,6 +6,7 @@
+  *
+  * 
+  */
++'use client';
+ 
+ import VirtualizedList from '../../vendor/react-native/VirtualizedList';
+ export default VirtualizedList;
+\ No newline at end of file
+diff --git a/dist/exports/createElement/index.js b/dist/exports/createElement/index.js
+index 0e75ca92f285dcf9ac452ad299b126fe716e2524..a09b39b3f08db2528974a55a50335d0f25726ab7 100644
+--- a/dist/exports/createElement/index.js
++++ b/dist/exports/createElement/index.js
+@@ -6,6 +6,7 @@
+  *
+  * 
+  */
++'use client';
+ 
+ import AccessibilityUtil from '../../modules/AccessibilityUtil';
+ import createDOMProps from '../../modules/createDOMProps';
+diff --git a/dist/exports/render/index.js b/dist/exports/render/index.js
+index bf707a76efdce6e55b341c6fe4099faa8e25c06c..68c34fcd239a40ec85c72694cb533ed58255f600 100644
+--- a/dist/exports/render/index.js
++++ b/dist/exports/render/index.js
+@@ -6,6 +6,7 @@
+  *
+  * 
+  */
++'use client';
+ 
+ import { hydrate as domLegacyHydrate, render as domLegacyRender } from 'react-dom';
+ import { createRoot as domCreateRoot, hydrateRoot as domHydrateRoot } from 'react-dom/client';
+diff --git a/dist/exports/useColorScheme/index.js b/dist/exports/useColorScheme/index.js
+index 733d29e9dd4ddec08d301d4c9fa3093fb62f3651..e917134c133eb7f438399d5fecf9543f3a49196a 100644
+--- a/dist/exports/useColorScheme/index.js
++++ b/dist/exports/useColorScheme/index.js
+@@ -8,6 +8,8 @@
+  * 
+  */
+ 
++'use client';
++
+ import * as React from 'react';
+ import Appearance from '../Appearance';
+ export default function useColorScheme() {
+diff --git a/dist/exports/useLocaleContext/index.js b/dist/exports/useLocaleContext/index.js
+index 6e1d98310beee3e4d934579ec3c393132fdc0db5..1cd0221719b8b9f40a5dafd944ab138cf0bca099 100644
+--- a/dist/exports/useLocaleContext/index.js
++++ b/dist/exports/useLocaleContext/index.js
+@@ -7,5 +7,7 @@
+  * 
+  */
+ 
++'use client';
++
+ import { useLocaleContext } from '../../modules/useLocale';
+ export default useLocaleContext;
+\ No newline at end of file
+diff --git a/dist/exports/useWindowDimensions/index.js b/dist/exports/useWindowDimensions/index.js
+index d6b8342ba66b729d7f0702a2593919e59d6ece17..290ff813eacb9b2feeaae263cff61a5d4cceb38f 100644
+--- a/dist/exports/useWindowDimensions/index.js
++++ b/dist/exports/useWindowDimensions/index.js
+@@ -8,7 +8,7 @@
+  * 
+  */
+ 
+-'use strict';
++'use client';
+ 
+ import Dimensions from '../Dimensions';
+ import { useEffect, useState } from 'react';
+diff --git a/dist/modules/UnimplementedView/index.js b/dist/modules/UnimplementedView/index.js
+index bbcafe4cfc37a393960cff9f298b510bdb029835..883c6b21da7da8eca391c914e456c9b6ad915a82 100644
+--- a/dist/modules/UnimplementedView/index.js
++++ b/dist/modules/UnimplementedView/index.js
+@@ -6,6 +6,7 @@
+  *
+  * 
+  */
++'use client';
+ 
+ import View from '../../exports/View';
+ import React from 'react';
+diff --git a/dist/modules/useLocale/index.js b/dist/modules/useLocale/index.js
+index 2c4e2332e451f19b12508c206f8fd46c8628deee..c73a9d01509fcad8cc2c5f2fdc9f362cb04a8739 100644
+--- a/dist/modules/useLocale/index.js
++++ b/dist/modules/useLocale/index.js
+@@ -6,6 +6,7 @@
+  *
+  * 
+  */
++'use client';
+ 
+ import React, { createContext, useContext } from 'react';
+ import { isLocaleRTL } from './isLocaleRTL';
+diff --git a/dist/modules/useResponderEvents/index.js b/dist/modules/useResponderEvents/index.js
+index aa5a238878963f270d6b47eefc6e9f9c01f8de65..bf24ea98dfaf7b8acad64cf05bd96e415eaa8b2d 100644
+--- a/dist/modules/useResponderEvents/index.js
++++ b/dist/modules/useResponderEvents/index.js
+@@ -7,6 +7,8 @@
+  * 
+  */
+ 
++'use client';
++
+ /**
+  * Hook for integrating the Responder System into React
+  *
+diff --git a/src/exports/Pressable/index.js b/src/exports/Pressable/index.js
+index 19d36491298049b791bfcac438c2cbf65f3ed28f..28118ddcd0ccbd5f2e379144dac7e8a4caa95384 100644
+--- a/src/exports/Pressable/index.js
++++ b/src/exports/Pressable/index.js
+@@ -7,7 +7,7 @@
+  * @flow strict-local
+  */
+ 
+-'use strict';
++'use client';
+ 
+ import type { HoverEventsConfig } from '../../modules/useHover';
+ import type { PressResponderConfig } from '../../modules/usePressEvents/PressResponder';
+diff --git a/src/exports/View/index.js b/src/exports/View/index.js
+index 18d0c86cf3194f8a3677da4b9dd6c4b5da5f1b00..573bfe2b5ba4f02e2997172cf407618f45fc117b 100644
+--- a/src/exports/View/index.js
++++ b/src/exports/View/index.js
+@@ -8,6 +8,8 @@
+  * @flow
+  */
+ 
++'use client';
++
+ import type { PlatformMethods } from '../../types';
+ import type { ViewProps } from './types';
+ 
